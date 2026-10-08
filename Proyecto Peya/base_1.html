@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="base_1.css">
+    <script src="base_1.js"></script>
+        
+</head>
+<body>
+
+    <!-- Navegación Superior -->
+    <nav class="navbar">
+        <div class="logo">🚀 MiProyecto</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#modulos">Módulos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button id="btnConexion" class="btn btn-primary" onclick="verificarConexion()">Probar Conexión</button>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container">
+        
+        <!-- Encabezado de Bienvenida -->
+        <header class="hero">
+            <h1>Bienvenido al Panel de Control</h1>
+            <p>Plantilla base lista para personalizar e integrar con Python y SQL.</p>
+        </header>
+
+        <!-- Tarjetas de Módulos (Grid) -->
+        <section id="modulos" class="grid-modules">
+            
+            <div class="card">
+                <span class="badge">Módulo 1</span>
+                <h3>Gestión de Datos</h3>
+                <p>Aquí puedes agregar tablas o datos provenientes de la base de datos SQL.</p>
+                <button class="btn btn-secondary" onclick="alert('Acción Módulo 1')">Explorar</button>
+            </div>
+
+            <div class="card">
+                <span class="badge">Módulo 2</span>
+                <h3>Lógica de Backend</h3>
+                <p>Espacio reservado para mostrar resultados de algoritmos o cálculos de Python.</p>
+                <button class="btn btn-secondary" onclick="alert('Acción Módulo 2')">Ver MÁS</button>
+            </div>
+
+            <div class="card">
+                <span class="badge">Módulo 3</span>
+                <h3>Estado del Sistema</h3>
+                <p>Monitorea métricas en tiempo real o el estado de tus servidores.</p>
+                <button class="btn btn-secondary" onclick="alert('Acción Módulo 3')">Detalles</button>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Vinculamos el archivo JavaScript externo al final del body -->
+    <script src="script.js"></script>
+</body>
+</html>
